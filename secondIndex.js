@@ -1,6 +1,5 @@
-function hello () {
-    console.log("Hello 1");
-
+function join(...arr) {
+  console.log(arr.join("||"));
 }
 
-hello();
+join("test", "test", "test", "test", "test", "test", "test", "test", "test");
